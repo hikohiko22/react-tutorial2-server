@@ -1,3 +1,4 @@
+require('pg').defaults.ssl = true;
 import Sequelize from "sequelize";
 
 const { DataTypes } = Sequelize;
