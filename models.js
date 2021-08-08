@@ -1,6 +1,7 @@
-require('pg').defaults.ssl = true;
+import pg from "pg";
 import Sequelize from "sequelize";
 
+pg.defaults.ssl = true;
 const { DataTypes } = Sequelize;
 
 const url =
