@@ -9,7 +9,7 @@ export const checkJwt = jwt({
     jwksRequestsPerMinute: 5,
     jwksUri: 'https://hikohiko22.jp.auth0.com/.well-known/jwks.json',
   }),
-  audience: 'https://arcane-fjord-32789.herokuapp.com/',
+  audience: 'https://arcane-fjord-32789.herokuapp.com',
   issuer: 'https://hikohiko22.jp.auth0.com/',
   algorithms: ['RS256'],
 });
