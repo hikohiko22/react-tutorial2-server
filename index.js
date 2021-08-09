@@ -4,7 +4,7 @@ import sequelize from "sequelize";
 import { Restaurant, Review, User } from "./models.js";
 import pg from "pg";
 
-pg.defaults.ssl = true;
+// pg.defaults.ssl = true;
 const app = express();
 app.use(cors());
 
